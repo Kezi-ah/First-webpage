@@ -7,9 +7,10 @@
     <title>Nifemi's software development portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
- <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./index.css">
+
 </head>
 
 <body>
@@ -18,46 +19,55 @@
         <div class="big">
             <div class="first">
                 <img src="./Assets/SEARCH.png" alt="" class="Search">
-               <!-- ? <p class="text">SEARCH </p> -->
-                <input type="text" placeholder="SEARCH" class="twelve" >
+                <!-- ? <p class="text">SEARCH </p> -->
+                <input type="text" placeholder="SEARCH" class="twelve">
             </div>
 
-            <div class="fifth">
-                <div class="fourth">
-                    <p class="second">SINCE 1975</p>
-                    <select class="third">SINCE 1975</select>
-                </div>
-                <div class="seventh">
-                    <p class="eight">SERVICES</p>
-                    <select class="ninth">SERVICES</select>
-                </div>
-                <div class="ten">
-                    <p class="eleven">EXPERIENCE</p>
-                    <select class="twelve">EXPERIENCE</select>
-                </div>
-                <div class="thirteen">
-                    <p class="fourteen">SHOP</p>
-                    <select class="fifteen">SHOP</select>
-                </div>
-                <div class="sixteen">
-                    <p class="seventeen">PROJECT X</p>
-                    <select class="eighteen">PROJECT X</select>
+            <div class='menu' >
+                <img src="images/close-bold-svgrepo-com.svg" alt="close-menu" class="close-menu" onclick="closeMenu()">
+
+                <div class="fifth">
+                    <div class="fourth">
+                        <p class="second">SINCE 1975</p>
+                        <select class="third">SINCE 1975</select>
+                    </div>
+                    <div class="seventh">
+                        <p class="eight">SERVICES</p>
+                        <select class="ninth">SERVICES</select>
+                    </div>
+                    <div class="ten">
+                        <p class="eleven">EXPERIENCE</p>
+                        <select class="twelve">EXPERIENCE</select>
+                    </div>
+                    <div class="thirteen">
+                        <p class="fourteen">SHOP</p>
+                        <select class="fifteen">SHOP</select>
+                    </div>
+                    <div class="sixteen">
+                        <p class="seventeen">PROJECT X</p>
+                        <select class="eighteen">PROJECT X</select>
+                    </div>
+
                 </div>
 
+                <div class="file">
+                    <div class="twenty">
+                        <img src="./Assets/wish-list.png" alt="" class="list">
+                    </div>
+                    <div class="twentyone">
+                        <img src="./Assets/shopping-bag.png" alt="" class="bag">
+                    </div>
+                    <div class="tin">
+                        <img src="./Assets/profile-circle.png" alt="" class="profile">
+                        <p class="txt"> My KB</p>
+                    </div>
+                </div>
             </div>
+            <img src="images/menu-alt-svgrepo-com.svg" alt="menu-icon" class="menu-icon" onclick="openMenu()">
 
-            <div class="file">
-                <div class="twenty">
-                    <img src="./Assets/wish-list.png" alt="" class="list">
-                </div>
-                <div class="twentyone">
-                    <img src="./Assets/shopping-bag.png" alt="" class="bag">
-                </div>
-                <div class="tin">
-                    <img src="./Assets/profile-circle.png" alt="" class="profile">
-                    <p class="txt"> My KB</p>
-                </div>
-            </div>
+
+
+            
 
         </div>
 
@@ -75,7 +85,7 @@
         </div>
     </div>
 
-
+    <script src="./script.js"></script>
 
 </body>
 

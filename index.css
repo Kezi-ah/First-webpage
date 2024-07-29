@@ -1,6 +1,6 @@
 body{
     background-color: #F1DBB6;
-   overflow: hidden;
+   height: 100vh;
 }
 .mitext {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@ body{
 .Search {
     width: 12px;
     height: 12px;
-    margin-left: 115px;
+    /* margin-left: 115px; */
     
 }
 
@@ -39,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     gap: 1%;
-    width: 25%;
+    width: 5%;
     /* justify-content: space-between; */
     
 }
@@ -65,8 +65,9 @@ body{
 .fifth{
     display: flex;
     gap : 4%;
-    width: 40%;
-    margin-right: 10px;
+    width: 70%;
+    /* margin-right: 10px; */
+    margin-left: -40px;
 }
 
 .seventh{
@@ -185,15 +186,15 @@ body{
     display: flex;
     gap: 2%;
     align-items: center;
-    width: 10%;
+    width: 17%;
     justify-content: space-between;
-    margin-right: 117px;
+    /* margin-right: 117px; */
  }
 
  .big{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     gap: 5%;
    text-align : center;
  }
@@ -201,8 +202,23 @@ body{
  .navhead {
     display: flex;
     align-items: center;
-    flex-direction: column;
- }
+      flex-direction: column;
+   }
+
+
+ .menu-icon{
+   display: none;
+}
+
+.close-menu{
+   display: none;
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   width: 65%;
+}
 
  .hero{
     width: 662px;
@@ -255,3 +271,132 @@ body{
    font-size: 13px;
    font-weight: 400;
  }
+
+ @media(max-width:650px){
+   .navhead{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 50%;
+   }
+
+   .hero{
+       margin-inline: 1rem;
+   }
+
+   .hero-img{
+       display: none;
+
+   }
+
+
+   .desktop-sign-up{
+       display: none;
+   }
+
+   .mobile-sign-up{
+       display: initial;
+   }
+   
+   .menu{
+       background-color: #fff;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       /* padding: 1.5rem; */
+       height: 100vh;
+       width: 100vw;
+       z-index: 1000;
+       display: none;
+       position: absolute;
+       top: 0;
+       right: -88%;
+       /* align-items: start; */
+       align-content: start;
+       gap: 30px;
+   }
+
+   .close-menu{
+       display: block;
+       height: 30px;
+       position: absolute;
+       top: 1rem;
+       right: 1rem;
+   }
+
+   .fifth{
+       display: grid;
+       align-items: start;
+       gap: 1rem;
+       margin-top: 3rem;
+       margin-right: 0;
+       margin-left: 45px;
+   }
+
+
+   .menu-icon {
+       display: block;
+       height: 30px;
+   }
+
+   .second{
+      font-family: "Josefin Sans";
+      font-size: 15px;
+      font-weight: 300;
+      color: black;
+  }
+
+  .eight{ 
+   font-family: "Josefin Sans";
+   font-size: 15px;
+   font-weight: 300;
+   color: black;
+}
+
+.eleven{
+   font-family: "Josefin Sans";
+   font-size: 15px;
+   font-weight: 300;
+   color: black;
+}
+
+.fourteen{
+   font-family: "Josefin Sans";
+   font-size: 15px;
+   font-weight: 300;
+   color: black;
+}
+
+.seventeen{
+   font-family: "Josefin Sans";
+   font-size: 15px;
+   font-weight: 300;
+   color: black;
+}
+  
+  .thirdslcct{
+     border: none;
+     color:rgba(0, 0, 0, 1);
+     outline: none;  
+     background-color: transparent;
+  }
+   
+   .end {
+   flex-direction: column;
+}
+
+.file {
+   flex-direction: column;
+   margin-left: 40px;
+   gap: 30px;
+}
+
+.txt {
+   display: none;
+}
+  
+.tin {
+   border: none;
+}
+  
+}
+
