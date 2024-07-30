@@ -272,7 +272,7 @@ body{
    font-weight: 400;
  }
 
- @media(max-width:650px){
+ @media(max-width:992px){
    .navhead{
       display: flex;
       align-items: center;
