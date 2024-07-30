@@ -317,10 +317,10 @@ body{
 
    .close-menu{
        display: block;
-       height: 30px;
+       height: 40px;
        position: absolute;
        top: 1rem;
-       right: 1rem;
+       right: 1.5rem;
    }
 
    .fifth{
@@ -335,7 +335,7 @@ body{
 
    .menu-icon {
        display: block;
-       height: 30px;
+       height: 40px;
    }
 
    .second{
